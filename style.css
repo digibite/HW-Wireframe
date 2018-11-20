@@ -1,0 +1,65 @@
+body {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+#mainDiv {
+    width: 50%;
+    margin: 0 auto;
+}
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    text-align: center;
+    padding: 25px;
+}
+header nav footer {
+    width: 495px;
+}
+section {
+    float: left;
+    width: 35%;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    height: 159px;
+    margin-bottom: 25px;
+}
+
+.articleDiv::after {
+    float: clear;
+}
+article {
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+p {
+    margin-bottom: 10px;
+}
+
+#articleDiv {
+    background: #777;
+}
+
+
+
+footer {
+    clear: both;
+    margin-top: 25px;
+}
